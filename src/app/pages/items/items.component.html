@@ -1,0 +1,18 @@
+<app-list [itemsObjectInput]="itemsObject" (itemObjectEmitter)="loadItem($event)"></app-list>
+<app-viewer [itemInput]="chosenItem"></app-viewer>
+
+<!--<div>
+    <select (change)="reload()" [(ngModel)]="chosenItem">
+        <option *ngFor="let obj of itemsObject" [ngValue]="obj">{{obj.id}}</option>
+    </select>
+
+    <div class="container" *ngIf="chosenItem">
+        <img class="itemsImage" [src]="'assets/' + chosenItem.id + '.jpg'"/>
+        <div class="break"></div>
+        <div>{{chosenItem.user_name}}</div>
+        <div class="break"></div>
+        <div>{{chosenItem.user_url}}</div>
+        <div class="break"></div>
+        <div>{{chosenItem.photo_url}}</div>
+    </div>
+</div>-->

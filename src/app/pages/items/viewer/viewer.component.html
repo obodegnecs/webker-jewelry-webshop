@@ -1,0 +1,53 @@
+<div class="card-component" *ngIf="itemInput">
+    <mat-card class="flex" fxLayout="column" fxLayoutGap="20px">
+        <mat-card-header>
+            <mat-card-title>
+                {{itemInput.name}}
+            </mat-card-title>
+        </mat-card-header>
+            <mat-card-content>
+                <img class="itemsImage" [src]="loadedItem" />
+                <div class="break"></div>
+                <div class="break"></div>
+                <div>{{itemInput.price}}</div>
+                <div class="break"></div>
+                <div>{{itemInput.about}}</div>
+                <div class="break"></div>
+            <mat-card-actions>
+                <span class="button">
+                    <button mat-raised-button color="primary" (click)="addCart()" >Kosárba tesz</button>
+                </span>
+            </mat-card-actions>
+        </mat-card-content>
+    </mat-card>
+</div>
+
+<!--<div class="container" *ngIf="itemInput">
+    <img class="itemsImage" [src]="loadedItem" />
+    <div class="break"></div>
+    <div>{{itemInput.name}}</div>
+    <div class="break"></div>
+    <div>{{itemInput.price}}</div>
+    <div class="break"></div>
+    <div>{{itemInput.about}}</div>
+    <div class="break"></div>
+    <div>
+        <button (click)="addCart()" [routerLink]="'/items/successful/' + itemInput.name">Kosárba tesz</button>
+    </div>
+</div>-->
+
+    <!--<form [formGroup]="itemForm" (ngSubmit)="onSubmit()">
+        <div><label for="password">Jelszó: </label></div>
+        <div><label for="passwordagain">Jelszó: </label></div>
+        <div><label for="passwordagain">Jelszó: </label></div>
+        <div>
+            <button type="submit" >Signup</button>
+            <button (click)="back()">Back</button>
+        </div>
+    </form>-->
+
+    <!--<div>{{itemInput.photo_date | dateFormat}}</div>-->
+    <!--ng generate pipe shared/pipes/date-format-->
+    <!--string{let tzoffset = (new Date(value)).getTimezoneOffSet() *60000
+        let localISOTime = (new Date(Date.now() - tzoffset)).toISOString().replace('Z', '').replace('T', ' ')
+        return localISOTime}-->

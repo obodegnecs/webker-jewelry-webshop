@@ -1,0 +1,13 @@
+<div class="item-list">
+    <mat-form-field appearance="fill">
+        <mat-select (selectionChange)="reload()" [(ngModel)]="chosenItem">
+            <mat-option *ngFor="let i of items" [value]="i">{{i.name}}</mat-option>
+        </mat-select>
+    </mat-form-field>
+</div>
+
+<!--<div>
+    <select (change)="reload()" [(ngModel)]="chosenItem">
+        <option *ngFor="let obj of itemsObjectInput" [ngValue]="obj">{{obj.id}}</option>
+    </select>
+</div>-->

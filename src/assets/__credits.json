@@ -1,0 +1,63 @@
+[
+  {
+    "id": "-ROfAabMFp8",
+    "name": "Fülbevaló 1.1",
+    "price": "5.990 Ft",
+    "about": "4K arannyal bevont orvosi ezüst fülbevaló, a Kelet nevű kollekciónk első darabja."
+  },
+  {
+    "id": "O94drF3S8ki",
+    "name": "Fülbevaló 1.2",
+    "price": "5.490 Ft",
+    "about": "Orvosi ezüst fülbevaló, a Kelet nevű kollekciónk második darabja."
+  },
+  {
+    "id": "0asmHRLjH8u",
+    "name": "Fülbevaló 1.3",
+    "price": "5.490 Ft",
+    "about": "Óezüst fülbevaló, a Kelet nevű kollekciónk harmadik darabja."
+  },
+  {
+    "id": "vcHbKtr5bDh",
+    "name": "Fülbevaló 2.1",
+    "price": "7.890 Ft",
+    "about": "Különleges gyönyből készült fülbevaló, a Laza elegancia kollekciónk első darabja."
+  },
+  {
+    "id": "7WFOtTN0enM",
+    "name": "Fülbevaló 2.2",
+    "price": "7.890 Ft",
+    "about": "Igazi kagylóból készült fülbevaló, a Laza elegancia kollekciónk második darabja."
+  },
+  {
+    "id": "h6KT3we-9ZH",
+    "name": "Nyaklánc-karkötő szett 3.1",
+    "price": "11.190 Ft",
+    "about": "Kristálygyöngyből készült, bőr szíjjas nyaklánc, az Őszi ajándék kollekciónk első darabja."
+  },
+  {
+    "id": "6ASxyZLo98Z",
+    "name": "Karkötő 3.2",
+    "price": "6.490 Ft",
+    "about": "Ásványból készült karkötő, az Őszi ajándék kollekciónk második darabja."
+  },
+  {
+    "id": "PLk872S3RQt",
+    "name": "Karkötő 4.1",
+    "price": "7.090 Ft",
+    "about": "4K arannyal bevont orvosi ezüst karkötő, a Báj nevű kollekciónk első darabja."
+  },
+  {
+    "id": "jwP92Y5Bgc4",
+    "name": "Gyűrű 4.2",
+    "price": "4.490 Ft",
+    "about": "4K rózsaarannyal bevont orvosi ezüst gyűrű, a Báj nevű kollekciónk másoik darabja."
+  },
+  {
+    "id": "u7D2N9m1Q4x",
+    "name": "Karkötő 1.4",
+    "price": "6.790 Ft",
+    "about": "Arany gyöngyös, bőr szíjjal ellátott karkötő, a Kelet nevű kollekciónk negyedik darabja."
+  }
+
+]

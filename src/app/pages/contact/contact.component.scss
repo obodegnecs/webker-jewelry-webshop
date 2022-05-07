@@ -1,0 +1,26 @@
+mat-card {
+    width: 80%;
+    height: 50%;
+    align-self: center;
+}
+
+mat-card-header {
+    display: initial;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+
+}
+
+.contact-component {
+    height: 100vh;
+}
+
+.flex {
+    margin: 50%;
+}

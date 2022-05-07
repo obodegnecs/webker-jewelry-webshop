@@ -1,0 +1,45 @@
+<!--<div *ngFor="let cart of loadedCart" class="card">
+    <mat-card fxLayout="column" fxLayoutGap="20px">
+        <mat-card-header>
+            <mat-card-title>
+                {{cart.name}}
+            </mat-card-title>
+        </mat-card-header>
+            <mat-card-content>
+                <div>{{cart.price}}</div>
+                <div class="break"></div>
+                <div>{{cart.date}}</div>
+                <div class="break"></div>
+        </mat-card-content>
+    </mat-card>
+</div>-->
+<div class="cart-component" *ngIf="loadedCart.length">
+    <div class="flex">
+        <h1>Kosaradban lévő termékek</h1>
+        <table>
+            <tr>
+                <th>Termék</th>
+                <th>Ár</th>
+                <th>Kosárbatétel időpontja</th>
+            </tr>
+            <tr *ngFor="let cart of loadedCart; let i = index;"
+                [ngStyle]="{'background-color' : i % 2 === 0 ? 'darkgrey' : '#9e8b8b'}">
+                <td>{{cart.name}}</td>
+                <td>{{cart.price}}</td>
+                <td>{{cart.date | dateFormat}}</td>
+                <button mat-button (click)="delete(cart)">Töröl</button>
+            </tr>
+        </table>
+        <span>
+            <button mat-raised-button color="primary" class="buttons" (click)="back()">Back</button>
+        </span>
+    </div>
+</div>
+<div class="cart-component" *ngIf="loadedCart.length == 0">
+    <div class="flex">
+        <h1>A kosarad üres</h1>
+        <span>
+            <button mat-raised-button color="primary" class="buttons" (click)="back()">Back</button>
+        </span>
+    </div>
+</div>

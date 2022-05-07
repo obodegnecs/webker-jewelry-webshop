@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "webshop-9f232": {
+      "hosting": {
+        "webshop": [
+          "webshop-9f232"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "webshop-9f232"
+  }
+}
